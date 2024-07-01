@@ -1,5 +1,5 @@
 settings:
-  title: 'Status Page'
+  title: 'Status'
   url: 'https://status-page.eidam.dev' # used for Slack messages
   logo: logo-192x192.png # image in ./public/ folder
   daysInHistogram: 90 # number of days you want to display in histogram
@@ -22,8 +22,7 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    linkable: false # allows the title to be a link, default=true
-
+    
   - id: static.seeizo.com
     name: 静态资源
     description: 'Built for anything connected to the Internet.'
