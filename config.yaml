@@ -22,11 +22,3 @@ monitors:
     method: GET # default=GET
     expectStatus: 200 # operational status, default=200
     followRedirect: false # should fetch follow redirects, default=false
-    
-  - id: static.seeizo.com
-    name: 静态资源
-    description: 'Built for anything connected to the Internet.'
-    url: 'https://static.seeizo.com/statuscheck'
-    method: GET
-    expectStatus: 200
-    linkable: true # allows the title to be a link, default=true
